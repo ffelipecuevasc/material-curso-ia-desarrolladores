@@ -19,6 +19,7 @@ unidad-N/
 | 1 · IA generativa y SDLC | `reservacancha/`, `claude-project-reservacancha/`, `rut-chileno/` | `pedidos-web/` (caso del curso), `caso-scrum-y-sdd.pdf` |
 | 2 · Desarrollo agéntico y SDD | `todomini/`, `tiendamini/` | `pedidos-web/` (base de la U2), `u2-respaldo/`, `prompt-maestro.md` |
 | 3 · Generar, refactorizar y documentar | `todomini/` (las 3 demos), `escribir-readme/` | `pedidos-web/` (base de la U3), `u3-respaldo/` |
+| 4 · Análisis y diagnóstico de sistemas legados | `arriendo-legado/` (las 4 demos) | `pedidos-web/` (base de la U4), `u4-respaldo/` |
 
 ## El caso del curso: `pedidos-web`
 
@@ -28,7 +29,8 @@ Desde la **Unidad 2** no se copia otro repo: actualizas tu repo propio con el **
 
 - **Unidad 2:** API, pedidos de ejemplo y `AGENTS.md` vacío.
 - **Unidad 3:** líneas de los pedidos, `ClientesService` heredado y dos plantillas. Solo se suman carpetas: no reemplaza nada tuyo.
+- **Unidad 4:** el código de Pedidos Legado en `legado/` (solo lectura) y las plantillas del diagnóstico. Solo se suman carpetas.
 
-Los respaldos (`u2-respaldo/`, `u3-respaldo/`) son **carpetas**, no ramas.
+Los respaldos (`u2-respaldo/`, `u3-respaldo/`, `u4-respaldo/`) son **carpetas**, no ramas.
 
 > Todo el contenido es ficticio y tiene fines educativos.
