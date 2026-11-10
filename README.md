@@ -10,7 +10,7 @@ Cada unidad tiene su carpeta con dos partes:
 
 ```
 unidad-N/
-├── demos/    ← lo que el instructor muestra en clase (puedes reproducirlo)
+├── demos/    ← lo que el instructor muestra en clase (puedes reproducirlo en casa)
 └── taller/   ← lo que tú usas en el taller práctico
 ```
 
@@ -18,11 +18,17 @@ unidad-N/
 |---|---|---|
 | 1 · IA generativa y SDLC | `reservacancha/`, `claude-project-reservacancha/`, `rut-chileno/` | `pedidos-web/` (caso del curso), `caso-scrum-y-sdd.pdf` |
 | 2 · Desarrollo agéntico y SDD | `todomini/`, `tiendamini/` | `pedidos-web/` (base de la U2), `u2-respaldo/`, `prompt-maestro.md` |
+| 3 · Generar, refactorizar y documentar | `todomini/` (las 3 demos), `escribir-readme/` | `pedidos-web/` (base de la U3), `u3-respaldo/` |
 
 ## El caso del curso: `pedidos-web`
 
 `unidad-1/taller/pedidos-web` se entrega **una sola vez**. En la Unidad 1 lo copias a **tu propio repositorio de GitHub** y trabajas en él hasta la Unidad 10. Los pasos están en su `README.md`.
 
-En la **Unidad 2** no se copia otro repo: se actualiza tu repo propio con el **camino A** del README de `unidad-2/taller/pedidos-web`.
+Desde la **Unidad 2** no se copia otro repo: actualizas tu repo propio con el **camino A** del README de `unidad-N/taller/pedidos-web`, que trae **solo lo nuevo** de esa unidad.
+
+- **Unidad 2:** API, pedidos de ejemplo y `AGENTS.md` vacío.
+- **Unidad 3:** líneas de los pedidos, `ClientesService` heredado y dos plantillas. Solo se suman carpetas: no reemplaza nada tuyo.
+
+Los respaldos (`u2-respaldo/`, `u3-respaldo/`) son **carpetas**, no ramas.
 
 > Todo el contenido es ficticio y tiene fines educativos.
