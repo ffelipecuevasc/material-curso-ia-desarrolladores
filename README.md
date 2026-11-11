@@ -21,6 +21,7 @@ unidad-N/
 | 3 · Generar, refactorizar y documentar | `todomini/` (las 3 demos), `escribir-readme/` | `pedidos-web/` (base de la U3), `u3-respaldo/` |
 | 4 · Análisis y diagnóstico de sistemas legados | `arriendo-legado/` (las 4 demos) | `pedidos-web/` (base de la U4), `u4-respaldo/` |
 | 5 · Modernización y migración | `arriendo-web/` (las 3 demos) | `pedidos-web/` (base de la U5), `u5-respaldo/` |
+| 6 · Calidad, pruebas y CI/CD | `arriendo-web/` (las 4 demos) | `pedidos-web/` (base de la U6), `u6-respaldo/` |
 
 ## El caso del curso: `pedidos-web`
 
@@ -32,7 +33,8 @@ Desde la **Unidad 2** no se copia otro repo: actualizas tu repo propio con el **
 - **Unidad 3:** líneas de los pedidos, `ClientesService` heredado y dos plantillas. Solo se suman carpetas: no reemplaza nada tuyo.
 - **Unidad 4:** el código de Pedidos Legado en `legado/` (solo lectura) y las plantillas del diagnóstico. Solo se suman carpetas.
 - **Unidad 5:** el golden master del cálculo de totales en `migracion/` y dos plantillas en `docs/migracion/`. Solo se suman carpetas.
+- **Unidad 6:** una plantilla en `docs/calidad/`. Los workflows de `.github/workflows/` los creas tú en el taller. Solo se suma una carpeta.
 
-Los respaldos (`u2-respaldo/`, `u3-respaldo/`, `u4-respaldo/`, `u5-respaldo/`) son **carpetas**, no ramas.
+Los respaldos (`u2-respaldo/`, `u3-respaldo/`, `u4-respaldo/`, `u5-respaldo/`, `u6-respaldo/`) son **carpetas**, no ramas.
 
 > Todo el contenido es ficticio y tiene fines educativos.
