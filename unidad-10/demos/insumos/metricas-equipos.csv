@@ -1,0 +1,17 @@
+semana,equipo,lineas_aceptadas,despliegues,lead_time_dias,cambios_con_falla,defectos_escapados,horas_retrabajo
+1,Tarifas,2600,1,7.5,1,4,14
+1,Reservas,500,3,2.5,0,1,3
+2,Tarifas,2450,1,8.0,1,3,13
+2,Reservas,450,3,2.0,0,0,2
+3,Tarifas,2700,1,7.0,1,4,15
+3,Reservas,550,3,2.5,1,1,3
+4,Tarifas,2550,1,7.5,0,3,12
+4,Reservas,400,3,2.0,0,0,2
+5,Tarifas,2650,1,8.0,1,4,14
+5,Reservas,600,3,2.5,0,1,3
+6,Tarifas,2500,1,7.5,1,4,13
+6,Reservas,500,3,2.0,0,0,2
+7,Tarifas,2600,1,7.0,1,4,15
+7,Reservas,450,3,2.5,0,1,3
+8,Tarifas,2400,1,8.0,1,4,14
+8,Reservas,550,3,2.0,0,0,2

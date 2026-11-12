@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "deny": ["Read(./.env)", "Edit(./legado/**)"],
+    "ask": ["Edit(./migracion/tarifas-golden.csv)", "Bash(curl *)", "WebFetch"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          { "type": "command", "command": "bash .claude/hooks/guardian.sh" }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          { "type": "command", "command": "cd \"$CLAUDE_PROJECT_DIR\" && dotnet test --nologo 1>&2 || exit 2" }
+        ]
+      }
+    ]
+  }
+}

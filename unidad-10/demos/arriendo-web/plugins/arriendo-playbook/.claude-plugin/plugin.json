@@ -1,0 +1,6 @@
+{
+  "name": "arriendo-playbook",
+  "version": "1.1.0",
+  "description": "Forma de trabajar de ArriendoWeb: revisor, guardián y plantilla de AGENTS.md",
+  "author": { "name": "Equipo ArriendoWeb" }
+}

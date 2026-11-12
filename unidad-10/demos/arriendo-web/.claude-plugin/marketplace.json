@@ -1,0 +1,11 @@
+{
+  "name": "arriendo-vela",
+  "owner": { "name": "Equipo ArriendoWeb" },
+  "plugins": [
+    {
+      "name": "arriendo-playbook",
+      "source": "./plugins/arriendo-playbook",
+      "description": "Revisor, guardián y plantilla de AGENTS.md de ArriendoWeb"
+    }
+  ]
+}
