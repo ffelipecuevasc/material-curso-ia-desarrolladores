@@ -23,6 +23,7 @@ unidad-N/
 | 5 · Modernización y migración | `arriendo-web/` (las 3 demos) | `pedidos-web/` (base de la U5), `u5-respaldo/` |
 | 6 · Calidad, pruebas y CI/CD | `arriendo-web/` (las 4 demos) | `pedidos-web/` (base de la U6), `u6-respaldo/` |
 | 7 · Code review y colaboración | `arriendo-web/` (las 3 demos), `insumos/` | `pedidos-web/` (base de la U7) |
+| 8 · Gobernanza, seguridad y uso responsable | `arriendo-web/` (las 3 demos), `insumos/` | `pedidos-web/` (base de la U8) |
 
 ## El caso del curso: `pedidos-web`
 
@@ -36,6 +37,7 @@ Desde la **Unidad 2** no se copia otro repo: actualizas tu repo propio con el **
 - **Unidad 5:** el golden master del cálculo de totales en `migracion/` y dos plantillas en `docs/migracion/`. Solo se suman carpetas.
 - **Unidad 6:** una plantilla en `docs/calidad/`. Los workflows de `.github/workflows/` los creas tú en el taller. Solo se suma una carpeta.
 - **Unidad 7:** la historia `specs/HU-03-pedidos-por-fecha/` y la plantilla `docs/checklist-revision.md`. `REVIEW.md`, el subagente `revisor` y `claude-review.yml` los creas tú en el taller. Solo se suman archivos.
+- **Unidad 8:** dos plantillas en `docs/gobernanza/`. Las reglas nuevas de `.claude/settings.json`, el hook `guardian.sh` y `dependabot.yml` los creas tú en el taller: `settings.json` se amplía, nunca se reemplaza. Solo se suma una carpeta.
 
 Los respaldos (`u2-respaldo/`, `u3-respaldo/`, `u4-respaldo/`, `u5-respaldo/`, `u6-respaldo/`) son **carpetas**, no ramas.
 
