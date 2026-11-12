@@ -24,6 +24,7 @@ unidad-N/
 | 6 · Calidad, pruebas y CI/CD | `arriendo-web/` (las 4 demos) | `pedidos-web/` (base de la U6), `u6-respaldo/` |
 | 7 · Code review y colaboración | `arriendo-web/` (las 3 demos), `insumos/` | `pedidos-web/` (base de la U7) |
 | 8 · Gobernanza, seguridad y uso responsable | `arriendo-web/` (las 3 demos), `insumos/` | `pedidos-web/` (base de la U8) |
+| 9 · Escalabilidad, madurez y adopción | `arriendo-web/` (las 3 demos), `insumos/` | `pedidos-web/` (base de la U9) |
 
 ## El caso del curso: `pedidos-web`
 
@@ -38,6 +39,7 @@ Desde la **Unidad 2** no se copia otro repo: actualizas tu repo propio con el **
 - **Unidad 6:** una plantilla en `docs/calidad/`. Los workflows de `.github/workflows/` los creas tú en el taller. Solo se suma una carpeta.
 - **Unidad 7:** la historia `specs/HU-03-pedidos-por-fecha/` y la plantilla `docs/checklist-revision.md`. `REVIEW.md`, el subagente `revisor` y `claude-review.yml` los creas tú en el taller. Solo se suman archivos.
 - **Unidad 8:** dos plantillas en `docs/gobernanza/`. Las reglas nuevas de `.claude/settings.json`, el hook `guardian.sh` y `dependabot.yml` los creas tú en el taller: `settings.json` se amplía, nunca se reemplaza. Solo se suma una carpeta.
+- **Unidad 9:** el CSV de adopción y la plantilla del plan en `docs/adopcion/`. El plugin `pedidos-playbook`, su marketplace en `.claude-plugin/` y la Skill `pdf-con-estilo` los creas tú en el taller. Solo se suma una carpeta.
 
 Los respaldos (`u2-respaldo/`, `u3-respaldo/`, `u4-respaldo/`, `u5-respaldo/`, `u6-respaldo/`) son **carpetas**, no ramas.
 
